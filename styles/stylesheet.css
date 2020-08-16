@@ -1,0 +1,117 @@
+.top-left-header:hover {
+    text-decoration: underline;
+    transition: .5s;
+}
+
+.top-right-header:hover {
+    text-decoration: underline;
+    transition: .5s;
+}
+
+.top-left-header {
+    float: left;
+    color: rgb(65, 65, 65);
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: small;
+}
+
+.top-right-header {
+    float: right;
+    color: rgb(65, 65, 65);
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: small;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+
+.search {
+    display: block;
+    box-sizing: content-box;
+    width: 400px;
+    margin: auto;
+    background-color: transparent;
+    padding: 0;
+    word-wrap: break-word;
+    display: flex;
+    font-size: 16px;
+    border-radius: 18px;
+    border: solid rgba(190, 192, 194, 0.884);
+    border-width: 1px;
+    height: 40px;
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+    vertical-align: auto;
+    line-height: 27px;
+    height: 50px;
+    min-width: 54px;
+    cursor: pointer;
+    background-color: #f2f2f2;
+    margin: 11px 4px;
+    font-size: large;
+    border: 1px solid #f2f2f2;
+}
+
+#go.buttons:hover {
+    transition: .5s;
+    border: 2px solid rgb(133, 133, 133);
+    border-radius: 10px;
+}
+
+#lucky.buttons:hover {
+    transition: .5s;
+    border: 2px solid rgb(133, 133, 133);
+    border-radius: 10px;
+}
+
+#footbar {
+    padding: 2px;
+    line-height: 40px;
+    margin: 0;
+    position: absolute;
+    display: block;
+    box-sizing: content-box;
+    font-size: small;
+    width: 99%;
+    bottom: 0;
+    height: 50px;
+    border-top: 2px rgb(207, 207, 207) solid;
+    z-index: auto;
+}
+
+#footbar .bottom-left-footer {
+    float: left;
+    color: rgb(65, 65, 65);
+    margin-left: 5px;
+    text-decoration: none;
+    visibility: visible;
+    z-index: auto;
+}
+
+#footbar .bottom-left-footer:hover {
+    text-decoration: underline;
+    transition: .5s;
+}
+
+#footbar .bottom-right-footer {
+    float: right;
+    color: rgb(65, 65, 65);
+    margin-left: 5px;
+    text-decoration: none;
+    z-index: auto;
+}
+
+#footbar .bottom-right-footer:hover {
+    /*hover for footer */
+    text-decoration: underline;
+    transition: .5s;
+}
